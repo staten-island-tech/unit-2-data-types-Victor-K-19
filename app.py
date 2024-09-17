@@ -7,5 +7,24 @@ print(values)
 for i in values:
     print(i) """
 
-string = "Victor Khobot"
-print (string)
+
+
+""" day_of_week = input("what day is it? ")
+if day_of_week == "Friday" or "friday":
+    print("correct")
+else:
+    print("incorrect") """
+    
+
+tip = input("How was your experience today? ")
+bill = input("What was your total price? ")
+if tip == "bad":
+    print("Here is your final total:", bill)
+if tip == "ok":
+    print("Here is your final total:", (float(bill)*1.15))
+if tip == "good":
+    print("Here is your final total:", (float(bill)*1.20))
+if tip == "great":
+    print("Here is your final total:", (float(bill)*1.25))
+
+
