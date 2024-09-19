@@ -20,13 +20,14 @@ else:
 bill = input("What was your total price? ")
 if tip == "bad":
     print("Here is your final total:", bill)
-if tip == "ok":
+elif tip == "ok":
     print("Here is your final total:", round(float(bill)*1.15, 2))
-if tip == "good":
+elif tip == "good":
     print("Here is your final total:", round(float(bill)*1.20, 2))
-if tip == "great":
-    print("Here is your final total with tip:", round(float(bill)*1.25, 2)) """
-
+elif tip == "great":
+    print("Here is your final total with tip:", round(float(bill)*1.25, 2))
+else:
+    print("That's not what I asked. Re-run it and be real.") """
 
 """ number = int(input("Enter number: "))
 if (number % 2) == (0):
@@ -38,6 +39,15 @@ print("Enter simple equation")
 input1 = input()
 input2 = input()
 input3 = input()
-
+if (input2) == "+":
+    print("=", float(input1)+float(input3))
+elif (input2) == "-":
+    print("=", float(input1)-float(input3))
+elif (input2) == "x":
+    print("=", float(input1)*float(input3))
+elif (input2) == "/":
+    print("=", float(input1)/float(input3))
+else:
+    print("Sorry I can't do allat. ERROR")
 
 
