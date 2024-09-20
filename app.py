@@ -35,7 +35,7 @@ if (number % 2) == (0):
 if (number % 2) == (1):
     print((number), "is odd") """
 
-print("Enter simple equation")
+""" print("Enter simple equation")
 input1 = input()
 input2 = input()
 input3 = input()
@@ -48,6 +48,14 @@ elif (input2) == "x":
 elif (input2) == "/":
     print("=", float(input1)/float(input3))
 else:
-    print("Sorry I can't do allat. ERROR")
+    print("Sorry I can't do allat. ERROR") """
 
 
+factornumber = int(input("Enter number "))
+factor = []
+for (factornumber) in range:
+    if (factornumber % (1,factornumber)) == (0):
+        factor.append(factornumber)
+print(factor)
+
+    
