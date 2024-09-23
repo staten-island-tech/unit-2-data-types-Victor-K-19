@@ -51,11 +51,21 @@ else:
     print("Sorry I can't do allat. ERROR") """
 
 
-factornumber = int(input("Enter number "))
+""" factornumber = int(input("Enter number: "))
 factor = []
-for (factornumber) in range:
-    if (factornumber % (1,factornumber)) == (0):
-        factor.append(factornumber)
-print(factor)
+for i in range(1, factornumber+1):
+    if factornumber % i == (0):
+        factor.append(i)
+if len(factor) < 3:
+    print("This is a prime number. Its only factors are 1 and itself:")
+print(factor) """
+    
 
+GCFnum1 = int(input("Enter number: "))
+GCFnum2 = int(input("Enter another number: "))
+factor = []
+for i in range(1, GCFnum1+1):
+    if GCFnum1 % i == (0) and GCFnum2 % i == 0:
+        factor.append(i)
+print(factor[-1])
     
